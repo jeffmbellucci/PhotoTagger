@@ -7,7 +7,7 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+  <%= button_to "Logout", session_url, method: :delete%>
 <%= yield %>
 
 </body>

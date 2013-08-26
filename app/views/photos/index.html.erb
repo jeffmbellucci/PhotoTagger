@@ -1,0 +1,15 @@
+<% @photos.each do |photo| %>
+<img src="<%= photo.url %>"></img>
+<%= button_to "Delete Photo", photo_url(photo), method: :delete %>
+<% end %>
+
+<form id="photo-form">
+  <label for="photo_url">
+  <input type="text" name="photo[url]" id="photo_url">
+  <input type="submit" value="Upload photo">
+</form>
+
+<script>
+window.TAG.initialize($("#photo-form"));
+</script>
+
