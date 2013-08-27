@@ -38,3 +38,6 @@ class PhotosController < ApplicationController
     render json: photo
   end
 end
+
+
+
