@@ -13,6 +13,9 @@
 //= require jquery
 //= require jquery_ujs
 //= require jquery.serializeJSON.min.js
+//= require underscore-min.js
 //= require tag.js
 //= require_tree ./models
-//= require_tree .
+//= require_tree ./templates
+//= require_tree ./views
+
